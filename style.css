@@ -1,0 +1,224 @@
+:root {
+  font-size: 62.5% !important;
+
+  -cor-degrade: linear-gradient(96.63deg, #d824e2 -5.74%, #5317f4 109.22%);
+}
+
+body {
+  background-color: hsl(300, 94%, 7%) !important;
+  font-size: 1.6rem !important;
+
+  background-image: url("./assets/mask.png");
+}
+
+.btn-transparente {
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  width: 25rem;
+  height: 6rem;
+  background: none;
+  color: white;
+}
+
+.btn-degrade {
+  background: linear-gradient(85.63deg, #f827de -9.39%, #2b14f9 114.93%);
+  border-radius: 8px;
+
+  width: 20rem;
+  height: 6rem;
+
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+
+  border: none;
+
+  
+}
+
+.btn-degrade1 {
+  color: white;
+  font-weight: bold;
+  background: none;
+
+  width: 15rem;
+  height: 6rem;
+
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, rgb(92, 3, 98), rgba(65, 1, 54, 0)) 1
+    100%;
+    
+}
+
+.nav-link {
+  font-size: 2.3rem !important;
+  color: white !important;
+  margin: 0 2rem;
+}
+
+/*=============PARTE HEADER===============*/
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.texto-header-wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.texto-header-wrapper h1 {
+  color: white;
+  font-size: 8.4rem;
+}
+
+.texto-header-wrapper p {
+  color: white;
+  font-size: 2.4rem;
+}
+
+.img-header img {
+  object-fit: cover;
+  margin-top: -11rem;
+  z-index: -1;
+}
+
+/*=============PARTE 1===============*/
+
+.ads-wrapper {
+  margin-top: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15rem;
+
+  color: white;
+
+}
+
+.ads {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ads-texto {
+  width: 50%;
+  height: 57rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+  color: white;
+  
+}
+
+.ads-texto h1 {
+  font-size: 4.6rem;
+}
+
+.ads-texto p {
+  font-size: 2.6rem;
+}
+
+.contador {
+  text-align: center;
+  line-height: 5rem;
+
+  width: 5rem;
+  height: 5rem;
+
+  background: linear-gradient(
+    127.41deg,
+    rgba(218, 37, 226, 0.2) 14.83%,
+    rgba(87, 24, 243, 0.2) 110.24%,
+    rgba(255, 245, 238, 0.2) 110.24%
+  );
+  backdrop-filter: blur(4px);
+
+  border-radius: 14px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+/*=============PARTE 2===============*/
+.parte-2 {
+  margin-top: 20rem;
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+  text-align: center;
+  
+}
+
+.parte-2 h1 {
+  font-size: 4.6rem;
+  margin-bottom: 7rem;
+}
+
+.parte-2-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+ 
+}
+
+.parte-2-img img {
+  -webkit-box-shadow: 10px 10px 90px -31px rgba(202,34,227,0.65);
+-moz-box-shadow: 10px 10px 90px -31px rgba(202,34,227,0.65);
+box-shadow: 10px 10px 90px -31px rgba(202,34,227,0.65);
+}
+
+.parte-2-img :nth-child(2) {
+  margin-top: 15rem;
+}
+
+/*=============PARTE 3===============*/
+.parte-3 {
+  margin-top: 7rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+
+
+footer {
+  background-image: url('./assets/footer.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer span {
+  font-size: 2.4rem;
+  color: white;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: rgb(9, 160, 236);
+  font-size: 2.4rem;
+}
